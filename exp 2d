@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class EmployeeBonus {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter employee salary: ");
+double salary = sc.nextDouble();
+double bonus;
+if (salary >= 50000)
+bonus = salary * 0.10;
+else
+bonus = salary * 0.05;
+System.out.println("Bonus = " + bonus);
+System.out.println("Total salary = " + (salary + bonus));
+}
+}
+Output
+Enter employee salary: 40000
+Bonus = 2000.0
+Total salary = 42000.0
