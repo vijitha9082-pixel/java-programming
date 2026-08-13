@@ -1,0 +1,16 @@
+public class StringOperations {
+public static void main(String[] args) {
+String str = "Java Programming";
+System.out.println("String: " + str);
+System.out.println("Length: " + str.length());
+System.out.println("Uppercase: " + str.toUpperCase());
+System.out.println("Lowercase: " + str.toLowerCase());
+System.out.println("Substring: " + str.substring(5));
+}
+}
+Output
+String: Java Programming
+Length: 16
+Uppercase: JAVA PROGRAMMING
+Lowercase: java programming
+Substring: Programming
