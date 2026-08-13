@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class LargestThree {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int a, b, c, largest;
+System.out.print("Enter first number: ");
+a = sc.nextInt();
+System.out.print("Enter second number: ");
+b = sc.nextInt();
+System.out.print("Enter third number: ");
+c = sc.nextInt();
+if (a >= b && a >= c) {
+largest = a;
+} else if (b >= a && b >= c) {
+largest = b;
+} else {
+largest = c;
+}
+System.out.println("Largest number = " + largest);
+}
+}
+Output
+Enter first number: 25
+Enter second number: 48
+Enter third number: 32
+Largest number = 48
