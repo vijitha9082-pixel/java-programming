@@ -1,0 +1,18 @@
+class Student {
+private int marks;
+public void setMarks(int marks) {
+this.marks = marks;
+}
+public int getMarks() {
+return marks;
+}
+}
+public class AccessSpecifierDemo {
+public static void main(String[] args) {
+Student s = new Student();
+s.setMarks(85);
+System.out.println("Student marks = " + s.getMarks());
+}
+}
+Output
+Student marks = 85
