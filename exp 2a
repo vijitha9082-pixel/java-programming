@@ -1,0 +1,19 @@
+// Employee.java
+package employee;
+public class Employee {
+public void display() {
+System.out.println("Employee Name: Arun");
+System.out.println("Employee ID: 101");
+}
+}
+// PackageDemo.java
+import employee.Employee;
+public class PackageDemo {
+public static void main(String[] args) {
+Employee e = new Employee();
+e.display();
+}
+}
+Output
+Employee Name: Arun
+Employee ID: 101
