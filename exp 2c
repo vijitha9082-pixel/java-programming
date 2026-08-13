@@ -1,0 +1,11 @@
+enum OrderStatus {
+PLACED, SHIPPED, DELIVERED, CANCELLED
+}
+public class OnlineOrder {
+public static void main(String[] args) {
+OrderStatus status = OrderStatus.SHIPPED;
+System.out.println("Online Order Status: " + status);
+}
+}
+Output
+Online Order Status: SHIPPED
