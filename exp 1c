@@ -1,0 +1,19 @@
+class Vehicle {
+void display() {
+System.out.println("Vehicle is moving");
+}
+}
+class Car extends Vehicle {
+@Override
+void display() {
+System.out.println("Car is moving");
+}
+}
+public class MethodOverridingDemo {
+public static void main(String[] args) {
+Vehicle v = new Car();
+v.display();
+}
+}
+Output
+Car is moving
